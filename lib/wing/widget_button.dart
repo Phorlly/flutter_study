@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//=================Class GetGetIconButton====================================//
+//=================Class GetIconButton====================================//
 class GridLayout {
   final String title;
   final String imageUrl;
@@ -9,7 +9,7 @@ class GridLayout {
 }
 
 //======================List Item=============================================//
-List<GridLayout> options = [
+List<GridLayout> buttonOptions = [
   GridLayout(title: 'My Account', imageUrl: 'assets/images/wallet.png'),
   GridLayout(
       title: 'Local Transfer', imageUrl: 'assets/images/money-transfer.png'),
